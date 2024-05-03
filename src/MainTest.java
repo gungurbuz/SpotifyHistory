@@ -59,6 +59,7 @@ public class MainTest {
 				}
 				if ((songs.get(i)).getTimesPlayed()> maxPlays) {
 					mostTimesPlayed = songs.get(i);
+					maxPlays = mostTimesPlayed.getTimesPlayed();
 				}
 			}
 			System.out.println("――――――――――― Highlights ―――――――――――");
