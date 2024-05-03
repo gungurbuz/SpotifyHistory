@@ -1,18 +1,32 @@
+# Spotify Streaming History Analyzer
+
+This Java application parses your Spotify extended streaming history to provide insights such as the most played song by playtime and play count.
+
+## Overview
+
+This program analyzes your Spotify extended streaming history. It extracts data such as track name, album, artist, and playtime. It then identifies the most played song based on total playtime and play count.
+
+## Features
+
+- Parses JSON file containing Spotify listening history.
+- Identifies the most played song by playtime and play count.
+- Displays insights such as song name, artist, total playtime, and play count.
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Prerequisites
 
-## Folder Structure
+- Java Development Kit (JDK) installed on your system.
+- Spotify Extended Streaming History (download from spotify account).
 
-The workspace contains two folders by default, where:
+### Installation
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1. Clone this repository to your local machine.
+2. Compile the Java files using the Java compiler:
+javac MainTest.java Song.java
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Usage
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Replace `history.json` with your own JSON file containing music listening history (combine streaming histories if they are in two different files).
+2. Run the compiled `MainTest` class:
+java MainTest
