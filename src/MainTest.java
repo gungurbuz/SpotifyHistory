@@ -16,6 +16,7 @@ public class MainTest {
 		System.out.println("input path to .json file");
 		String path = scanner.nextLine();
 		scanner.close();
+		path = path.replace("\"", "\\");
 		JSONParser jsonParser = new JSONParser();
 		ArrayList<Song> songs = new ArrayList<>();
 		Song mostPlayed = null;
