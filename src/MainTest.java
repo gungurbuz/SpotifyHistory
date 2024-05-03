@@ -3,7 +3,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
-
+import java.util.Scanner;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -12,6 +12,10 @@ import org.json.simple.parser.ParseException;
 public class MainTest {
 
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("input path to .json file");
+		String path = scanner.nextLine();
+		scanner.close();
 		JSONParser jsonParser = new JSONParser();
 		ArrayList<Song> songs = new ArrayList<>();
 		Song mostPlayed = null;
@@ -19,9 +23,10 @@ public class MainTest {
 		//ArrayList<Song> highlights = new ArrayList<>();
 		long maxLong = 0;
 		int maxPlays = 0;
+
 		
 		try {
-			JSONArray jsonArray = (JSONArray) jsonParser.parse(new FileReader("C:\\Users\\Güney\\eclipse-workspace\\csh\\csh\\history.json"));
+			JSONArray jsonArray = (JSONArray) jsonParser.parse(new FileReader(path));
 			@SuppressWarnings("unchecked")
 			Iterator<Object> iterator = jsonArray.iterator();
 			while (iterator.hasNext()) {
