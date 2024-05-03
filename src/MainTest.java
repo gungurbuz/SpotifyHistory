@@ -12,7 +12,6 @@ import org.json.simple.parser.ParseException;
 public class MainTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		JSONParser jsonParser = new JSONParser();
 		ArrayList<Song> songs = new ArrayList<>();
 		Song mostPlayed = null;
@@ -23,6 +22,7 @@ public class MainTest {
 		
 		try {
 			JSONArray jsonArray = (JSONArray) jsonParser.parse(new FileReader("C:\\Users\\Güney\\eclipse-workspace\\csh\\csh\\history.json"));
+			@SuppressWarnings("unchecked")
 			Iterator<Object> iterator = jsonArray.iterator();
 			while (iterator.hasNext()) {
 				JSONObject jsonObject = (JSONObject) iterator.next();
