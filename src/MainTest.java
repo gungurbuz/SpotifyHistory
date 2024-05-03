@@ -72,6 +72,10 @@ public class MainTest {
 			System.out.println("Playtime(s): " + maxTimeSec);
 			System.out.println("Playtime(m): " + maxTimeMin);
 			System.out.println("Playtime(hr): " + maxTimeHr);
+			System.out.println("Most listened to song by play count: ");
+			System.out.println("Song Name: " + mostTimesPlayed.getTrackName());
+			System.out.println("By: " + mostTimesPlayed.getArtist());
+			System.out.println("Times played: " + maxPlays);
 			
 		}
 		
