@@ -14,7 +14,7 @@ This program analyzes your Spotify extended streaming history. It extracts data 
 
 ### To Do
 - [ ] Convert to binary tree
-- [ ] Allow user to input file
+- [x] Allow user to input file path
 - [ ] Implement GUI
 
 
