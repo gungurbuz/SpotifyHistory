@@ -12,10 +12,10 @@ This program analyzes your Spotify extended streaming history. It extracts data 
 - Identifies the most played song by playtime and play count.
 - Displays insights such as song name, artist, total playtime, and play count.
 
-###To Do
-[ ]Convert to binary tree
-[ ]Allow user to input file
-[ ]Implement GUI
+### To Do
+- [ ]Convert to binary tree
+- [ ]Allow user to input file
+- [ ]Implement GUI
 
 
 ## Getting Started
