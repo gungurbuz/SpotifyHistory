@@ -71,7 +71,7 @@ public class MainTest {
 
     private static void printHighlights(Song mostPlayed, Song mostTimesPlayed, int maxPlays) {
         if (mostPlayed != null && mostTimesPlayed != null) {
-            System.out.println("――――――――――― Highlights ―――――――――――");
+            System.out.println("____________ Highlights ____________");
             double maxTimeSec = mostPlayed.getTotalPlayedFor() / 1000.0;
             double maxTimeMin = maxTimeSec / 60.0;
             double maxTimeHr = maxTimeMin / 60.0;
