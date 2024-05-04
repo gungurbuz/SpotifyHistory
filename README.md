@@ -31,7 +31,7 @@ This program analyzes your Spotify extended streaming history. It extracts data 
 2. Compile the Java files using the Java compiler:
 `javac MainTest.java Song.java`
 
-- or just get the release
+or just get the release ¯\_(ツ)_/¯
 
 ### Usage
 
