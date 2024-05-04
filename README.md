@@ -31,6 +31,8 @@ This program analyzes your Spotify extended streaming history. It extracts data 
 2. Compile the Java files using the Java compiler:
 `javac MainTest.java Song.java`
 
+- or just get the release
+
 ### Usage
 
 1. Replace `history.json` with your own JSON file containing music listening history (combine streaming histories if they are in two different files).
