@@ -23,7 +23,7 @@ This program analyzes your Spotify extended streaming history. It extracts data 
 ### Prerequisites
 
 - Java Development Kit (JDK) installed on your system.
-- Spotify Extended Streaming History (download from spotify account).
+- Spotify Extended Streaming History (download from spotify account >> privacy).
 
 ### Installation
 
